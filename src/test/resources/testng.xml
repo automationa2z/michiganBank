@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Testing Suite">
+    <test  name="Test" >
+
+<!--        <packages>-->
+<!--          <&#45;&#45;  <package name="com.michigaBank.testng.frontend"/> &#45;&#45;/>-->
+<!--        </packages>-->
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.michigaBank.testng.frontend.LandingPage"></class>
+<!--            <class name="com.michigaBank.testng.frontend.LogInWithJson"></class>-->
+        </classes>
+    </test>
+
+</suite>
